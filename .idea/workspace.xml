@@ -346,16 +346,27 @@
       <workItem from="1580661136818" duration="6780000" />
       <workItem from="1580668828059" duration="5334000" />
       <workItem from="1580809467213" duration="5049000" />
-      <workItem from="1580824226860" duration="16440000" />
+      <workItem from="1580824226860" duration="16729000" />
     </task>
+    <task id="LOCAL-00001" summary="initial project setup">
+      <created>1580850296681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580850296681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="initial project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial project setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="127" width="1000" height="832" key="#Deployment" timestamp="1580530672828">
@@ -366,10 +377,10 @@
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state x="630" y="253" width="649" height="587" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.40.1920.1021@0.40.1920.1021" timestamp="1580848677222" />
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580850243690">
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580850296006">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580850243690" />
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580850296006" />
     <state x="699" y="372" width="718" height="462" key="NewPhpClassDialog" timestamp="1580384625436">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
