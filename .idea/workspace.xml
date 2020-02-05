@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc4f10c4-dda7-494f-a345-6be25e6349dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +167,7 @@
       <workItem from="1580661136818" duration="6780000" />
       <workItem from="1580668828059" duration="5334000" />
       <workItem from="1580809467213" duration="5049000" />
-      <workItem from="1580824226860" duration="37615000" />
+      <workItem from="1580824226860" duration="37940000" />
     </task>
     <task id="LOCAL-00001" summary="initial project setup">
       <created>1580850296681</created>
@@ -231,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580910047582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add flash message and delete admin unit">
+      <created>1580933472087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580933472087</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add flash message and delete admin unit">
+      <created>1580933482001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580933482001</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +251,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial project setup" />
     <MESSAGE value="add flash message and save unit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flash message and save unit" />
+    <MESSAGE value="add flash message and delete admin unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flash message and delete admin unit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="127" width="1000" height="832" key="#Deployment" timestamp="1580530672828">
@@ -258,10 +267,14 @@
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state x="639" y="158" width="632" height="777" key="#units.blade.php/0.40.1920.1021@0.40.1920.1021" timestamp="1580907819816" />
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580933471472">
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580933481836">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580933471472" />
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580933481836" />
+    <state x="182" y="124" width="1536" height="839" key="DiffContextDialog" timestamp="1580933526229">
+      <screen x="0" y="40" width="1920" height="1021" />
+    </state>
+    <state x="182" y="124" width="1536" height="839" key="DiffContextDialog/0.40.1920.1021@0.40.1920.1021" timestamp="1580933526229" />
     <state x="699" y="372" width="718" height="462" key="NewPhpClassDialog" timestamp="1580384625436">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
@@ -281,10 +294,10 @@
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state width="828" height="498" key="SwitcherDM/0.40.1920.1021@0.40.1920.1021" timestamp="1580412630331" />
-    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2" timestamp="1580910053962">
+    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2" timestamp="1580933527552">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580910053962" />
+    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580933527552" />
     <state x="620" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1580824343578">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>

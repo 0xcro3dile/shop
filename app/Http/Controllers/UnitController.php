@@ -29,6 +29,10 @@ class UnitController extends Controller
         return redirect()->back();
     }
 
+    public function update(Request $request){
+        //TODO
+    }
+
     public function delete(Request $request){
         $id = $request->input('units_id');
         Unit::destroy($id);
