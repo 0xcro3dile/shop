@@ -29,4 +29,13 @@ class UnitController extends Controller
         return redirect()->back();
     }
 
+    public function delete(Request $request){
+        $id = $request->input('units_id');
+        Unit::destroy($id);
+        Session::flash('message', 'unit has been deleted');
+        return redirect()->back();
+
+
+    }
+
 }

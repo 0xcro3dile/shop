@@ -4,13 +4,11 @@
     <list default="true" id="dc4f10c4-dda7-494f-a345-6be25e6349dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,7 @@
       <workItem from="1580661136818" duration="6780000" />
       <workItem from="1580668828059" duration="5334000" />
       <workItem from="1580809467213" duration="5049000" />
-      <workItem from="1580824226860" duration="30820000" />
+      <workItem from="1580824226860" duration="37615000" />
     </task>
     <task id="LOCAL-00001" summary="initial project setup">
       <created>1580850296681</created>
@@ -219,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580850608191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add flash message and save unit">
+      <created>1580909940182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580909940182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add flash message and save unit">
+      <created>1580910047582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580910047582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +242,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial project setup" />
+    <MESSAGE value="add flash message and save unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flash message and save unit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="127" width="1000" height="832" key="#Deployment" timestamp="1580530672828">
@@ -245,10 +258,10 @@
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state x="639" y="158" width="632" height="777" key="#units.blade.php/0.40.1920.1021@0.40.1920.1021" timestamp="1580907819816" />
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580909939483">
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2" timestamp="1580910047419">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580909939483" />
+    <state x="360" y="78" width="1189" height="937" key="CommitChangelistDialog2/0.40.1920.1021@0.40.1920.1021" timestamp="1580910047419" />
     <state x="699" y="372" width="718" height="462" key="NewPhpClassDialog" timestamp="1580384625436">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
@@ -268,20 +281,20 @@
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state width="828" height="498" key="SwitcherDM/0.40.1920.1021@0.40.1920.1021" timestamp="1580412630331" />
-    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2" timestamp="1580850715340">
+    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2" timestamp="1580910053962">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580850715340" />
+    <state x="455" y="223" width="1000" height="647" key="Vcs.Push.Dialog.v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580910053962" />
     <state x="620" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1580824343578">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
     <state x="620" y="387" key="com.intellij.ide.util.TipDialog/0.40.1920.1021/1920.0.1920.1080@0.40.1920.1021" timestamp="1580669131754" />
     <state x="2540" y="367" key="com.intellij.ide.util.TipDialog/0.40.1920.1021/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580294723896" />
     <state x="620" y="387" key="com.intellij.ide.util.TipDialog/0.40.1920.1021@0.40.1920.1021" timestamp="1580824343578" />
-    <state x="668" y="452" width="573" height="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580530617933">
+    <state x="668" y="452" width="583" height="197" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580933412790">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>
-    <state x="668" y="452" width="573" height="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580530617933" />
+    <state x="668" y="452" width="583" height="197" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1021@0.40.1920.1021" timestamp="1580933412790" />
     <state x="540" y="250" key="run.anything.popup" timestamp="1580833828331">
       <screen x="0" y="40" width="1920" height="1021" />
     </state>

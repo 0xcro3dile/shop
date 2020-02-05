@@ -62,6 +62,14 @@
 
                             <div class="col-md-3">
                                 <div class="alert alert-primary" role="alert">
+                                    <span>
+                                        <form action="{{route('units') }}" method="post"  style="position: relative">
+
+                                             <input type="hidden" name="_method" value="delete"/>
+                                             <input type="hidden" name="units_id"  value="{{ $unit->id }}">
+                                            <button type="submit" class="delete-btn"> <i class="fa fa-trash" ></i></button>
+                                        </form>
+                                    </span>
                                     <p> {{ $unit->unit_name }} , {{ $unit->units_code }}</p>
 
                                 </div>
