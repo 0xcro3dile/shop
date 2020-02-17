@@ -2,8 +2,8 @@
 @section('content')
 
 
-
-    <div class="toast" role="alert" style="position: absolute;z-index: 9999;top: 5%; right:5%;">
+    <div class="toast" role="alert" style="position: absolute;z-index: 9999;top: 5%; right:5%;"
+         xmlns="http://www.w3.org/1999/html">
         <div class="toast-header">
             <strong class="mr-auto">Unit</strong>
             <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
@@ -62,14 +62,12 @@
 
                             <div class="col-md-3">
                                 <div class="alert alert-primary" role="alert">
-                                    <span>
-                                        <form action="{{route('units') }}" method="post"  style="position: relative">
 
-                                             <input type="hidden" name="_method" value="delete"/>
-                                             <input type="hidden" name="units_id"  value="{{ $unit->id }}">
-                                            <button type="submit" class="delete-btn"> <i class="fa fa-trash" ></i></button>
-                                        </form>
-                                    </span>
+                                  <span class="buttons-span">
+                                      <span><a href="delete-unit"><i class="fa fa-trash" ></i></a></span>
+                                      <span><a href="edit-unit"><i class="fas fa-edit"></i></a></span>
+
+                                  </span>
                                     <p> {{ $unit->unit_name }} , {{ $unit->units_code }}</p>
 
                                 </div>
@@ -90,6 +88,14 @@
 
 
 @endsection
+<span>
+                                        <form action="{{route('units') }}" method="post"  style="position: relative">
+
+                                             <input type="hidden" name="_method" value="delete"/>
+                                             <input type="hidden" name="units_id"  value="{{ $unit->id }}">
+                                            <button type="submit" class="delete-btn"> <i class="fa fa-trash" ></i></button>
+                                        </form>
+                                    </span>
 
 @if (Session::has('message'))
 @section('scripts')

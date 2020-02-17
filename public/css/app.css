@@ -11365,3 +11365,20 @@ a.text-dark:focus {
   right: 10px;
 }
 
+.buttons-span {
+  position: absolute;
+  right: 12px;
+}
+
+span.buttons-span span:first-child {
+  margin-right: 10px;
+}
+
+span.buttons-span span:first-child a {
+  color: #804c50;
+}
+
+span.buttons-span span:last-child a {
+  color: #ff2d1b;
+}
+
